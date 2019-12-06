@@ -45,7 +45,7 @@ public class PermissionHandlerPlugin implements MethodCallHandler {
   private static final int PERMISSION_CODE_IGNORE_BATTERY_OPTIMIZATIONS = 5672353;
 
   //PERMISSION_GROUP
-  private static final int PERMISSION_GROUP_CALENDAR = 0;
+  private static final int PERMISSION_GROUP_CALENDAR = 14;
   private static final int PERMISSION_GROUP_CAMERA = 1;
   private static final int PERMISSION_GROUP_CONTACTS = 2;
   private static final int PERMISSION_GROUP_LOCATION = 3;
@@ -59,7 +59,7 @@ public class PermissionHandlerPlugin implements MethodCallHandler {
   private static final int PERMISSION_GROUP_SENSORS = 11;
   private static final int PERMISSION_GROUP_SMS = 12;
   private static final int PERMISSION_GROUP_SPEECH = 13;
-  private static final int PERMISSION_GROUP_STORAGE = 14;
+  private static final int PERMISSION_GROUP_STORAGE = 0;
   private static final int PERMISSION_GROUP_IGNORE_BATTERY_OPTIMIZATIONS = 15;
   private static final int PERMISSION_GROUP_NOTIFICATION = 16;
   private static final int PERMISSION_GROUP_UNKNOWN = 17;
